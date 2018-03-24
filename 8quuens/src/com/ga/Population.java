@@ -32,9 +32,9 @@ public class Population {
 		return this.chromosomes.get(index);
 	}
 	public void addPopulation(Chromosome c) {
-		this.populationSize++;
 		this.chromosomes.add(c);
-		System.out.println(populationSize);
+		this.populationSize = this.chromosomes.size();
+
 	}
 	
 	
